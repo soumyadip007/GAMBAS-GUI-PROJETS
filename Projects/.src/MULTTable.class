@@ -1,0 +1,18 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+  
+  Dim a, i, b, n As Integer
+  b = 1
+  Dim s As String
+  n = Val(InputBox("Enter a number"))
+  For i = 1 To 100
+   
+    ListBox1.add(i & "*" & n & "=" & (i * n))
+    
+    Next
+  
+
+End

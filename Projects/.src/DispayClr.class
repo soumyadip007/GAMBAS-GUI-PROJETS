@@ -1,0 +1,29 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+  Timer1.Enabled = True
+  Timer1.delay = 50
+
+End
+
+Public Sub Timer1_Timer()
+
+   LCDLabel1.Text = Str(Now)
+   Dim p, q, r As Integer
+   p = Int(Rnd * 255)
+  q = Int(Rnd * 155)
+  r = Int(Rnd * 55)
+
+ 
+  DispayClr.Background = Color.RGB(255 - p + 10, 255 - q + 10, 255 - r + 10)
+  
+  
+End
+
+Public Sub LCDLabel1_MouseDown()
+
+  
+
+End

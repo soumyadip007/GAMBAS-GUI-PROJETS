@@ -1,0 +1,39 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+ 
+    ComboBox1.add("WB")
+       ComboBox1.add("MH")
+End
+
+
+Public Sub ComboBox1_Click()
+  
+  
+   If ComboBox1.Text = "WB" Then
+    TextBox1.Text = "Kolkata"
+   Else If ComboBox1.Text = "Mh" Then
+    TextBox1.Text = "Mumbai"
+    End If
+End
+
+Public Sub Button2_Click()
+
+  Dim index As Integer
+  index = ComboBox1.Index
+  
+  If index >= 0
+      ComboBox1.Remove(index)
+     
+ TextBox1.Text = " "
+  Else
+    Message.Info("Blank")
+        Endif
+      
+  
+
+End
+
+

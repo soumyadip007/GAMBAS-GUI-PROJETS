@@ -1,0 +1,15 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { TextBox1 TextBox
+    MoveScaled(1,54,25,8)
+  }
+  { Button1 Button
+    MoveScaled(29,54,31,9)
+    Text = ("Generate Pattern")
+  }
+  { ListBox1 ListBox
+    MoveScaled(0,1,62,52)
+  }
+}

@@ -1,0 +1,16 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+  Dim a, i, b, c As Integer
+  Dim s As String
+  a = Val(TextBox1.Text)
+  For i = 0 To a
+    ListBox1.add(s & "#")
+    s = s & "#"
+  Next
+  
+  
+  
+End

@@ -1,0 +1,9 @@
+' Gambas class file
+
+
+Public Sub Button2_Click()
+
+  DrawingArea1.Clear
+  DrawingArea1.Fill.Color.Red
+
+End

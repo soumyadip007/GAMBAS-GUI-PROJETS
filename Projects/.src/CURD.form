@@ -1,0 +1,34 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,102,70)
+  { ListBox1 ListBox
+    MoveScaled(1,4,32,47)
+  }
+  { ListBox2 ListBox
+    MoveScaled(35,4,30,47)
+  }
+  { Button1 Button
+    MoveScaled(3,53,29,7)
+    Text = ("Create")
+  }
+  { Button2 Button
+    MoveScaled(33,53,29,7)
+    Text = ("Sort (Assc)")
+  }
+  { Button3 Button
+    MoveScaled(63,53,29,7)
+    Text = ("Sort (Desc)")
+  }
+  { Button4 Button
+    MoveScaled(19,61,29,7)
+    Text = ("Search")
+  }
+  { Button5 Button
+    MoveScaled(50,61,29,7)
+    Text = ("Exit")
+  }
+  { ListBox3 ListBox
+    MoveScaled(67,4,32,47)
+  }
+}

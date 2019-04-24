@@ -1,0 +1,23 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,53)
+  { TextBox1 TextBox
+    MoveScaled(3,4,30,11)
+  }
+  { ListBox1 ListBox
+    MoveScaled(35,5,26,28)
+  }
+  { Button1 Button
+    MoveScaled(5,18,27,15)
+    Text = ("Add")
+  }
+  { Button2 Button
+    MoveScaled(4,35,27,15)
+    Text = ("Delete")
+  }
+  { Button3 Button
+    MoveScaled(35,35,27,15)
+    Text = ("Clear")
+  }
+}

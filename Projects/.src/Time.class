@@ -1,0 +1,10 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+  LCDLabel1.Text = Str(Now)
+
+Time.Background = Color.White
+Time.Enabled = True
+End

@@ -1,0 +1,15 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,61,27)
+  { Button1 Button
+    MoveScaled(3,16,56,9)
+    Text = ("Generate factorial")
+  }
+  { TextBox1 TextBox
+    MoveScaled(2,1,28,14)
+  }
+  { TextBox2 TextBox
+    MoveScaled(32,1,27,14)
+  }
+}

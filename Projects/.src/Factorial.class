@@ -1,0 +1,18 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+   
+  Dim a, i, b, n As Integer
+  b = 1
+
+  n = Val(TextBox1.Text)
+  For i = 1 To n
+   
+    b = b * i
+    
+    Next
+  TextBox2.text = b
+
+End

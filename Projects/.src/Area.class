@@ -1,0 +1,22 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+  Dim y, x As Integer
+  x = Val(TextBox1.Text)
+  y = Val(TextBox2.Text)
+  TextBox3.Text = Area(x, y)
+  TextBox4.Text = Peri(x, y)
+End
+
+Public Function peri(x As Integer, y As Integer) As Float
+  
+  Return x * y
+  
+End
+Public Function Area(x As Integer, y As Integer) As Float
+  
+  Return (2 * (x + y))
+  
+End

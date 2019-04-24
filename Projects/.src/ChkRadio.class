@@ -1,0 +1,42 @@
+' Gambas class file
+
+
+Public Sub CheckBox1_Click()
+
+  If CheckBox1.Value = True Then
+    TextBox1.Font.Bold = True
+  Endif
+
+End
+
+Public Sub RadioButton1_Click()
+
+  If RadioButton1.Value = True Then
+    TextBox1.Text = "Male"
+    RadioButton2.Value = False
+  Endif
+
+End
+
+Public Sub RadioButton2_Click()
+
+  
+  If RadioButton2.Value = True Then
+    TextBox1.Text = "Fale"
+    RadioButton1.Value = False
+  Endif
+
+End
+
+Public Sub CheckBox2_Click()
+
+  If CheckBox2.Value = True Then
+    TextBox1.Font.Italic = True
+  Endif
+End
+
+Public Sub TextBox1_KeyPress()
+
+  
+
+End

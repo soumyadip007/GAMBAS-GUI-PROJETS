@@ -1,0 +1,23 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,71,29)
+  { Label1 Label
+    MoveScaled(10,2,18,4)
+    Text = ("Name")
+  }
+  { Label3 Label
+    MoveScaled(40,0,20,7)
+    Text = ("Dept")
+  }
+  { Button1 Button
+    MoveScaled(15,18,43,9)
+    Text = ("Exit")
+  }
+  { TextBox1 TextBox
+    MoveScaled(8,7,16,7)
+  }
+  { TextBox2 TextBox
+    MoveScaled(34,7,30,9)
+  }
+}

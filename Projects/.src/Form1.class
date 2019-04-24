@@ -1,0 +1,10 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+
+  Form2.Show()
+
+
+End

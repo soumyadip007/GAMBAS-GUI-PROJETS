@@ -1,0 +1,95 @@
+' Gambas class file
+
+
+Private count As Integer
+
+Private n As Integer
+
+Private arr[10] As Integer
+
+
+Public Sub Button1_Click()
+
+  
+  Dim a, i, b As Integer
+  b = 1
+  Dim s As String
+  n = InputBox("Enter the limit")
+  count = n
+  For i = 0 To n
+  
+  b = InputBox("Enter the numbers")
+    arr[i] = b
+  ListBox3.Add(arr[i])
+   Next
+  
+
+End
+
+Public Sub Button2_Click()
+
+ListBox1.Clear
+   Dim i, j, k, t As Integer
+   t = 0
+   For i = 0 To count - 1
+     k = i
+    For j = i To count
+      
+      If arr[k] > arr[j] Then
+       k = j
+       Endif
+       
+    Next
+   t = arr[k]
+   arr[k] = arr[i]
+   arr[i] = t 
+   
+   Next
+   
+  For i = 0 To 4
+    ListBox1.Add(arr[i])
+     Next
+     
+End
+
+Public Sub Button3_Click()
+
+ListBox2.Clear
+   Dim i, j, k, t As Integer
+   t = 0
+   For i = 0 To count - 1
+     k = i
+    For j = i To count
+      
+      If arr[k] < arr[j] Then
+       k = j
+       Endif
+       
+    Next
+   t = arr[k]
+   arr[k] = arr[i]
+   arr[i] = t 
+   
+   Next
+   
+  For i = 0 To count
+    ListBox2.Add(arr[i])
+     Next
+  
+
+End
+
+Public Sub Button4_Click()
+
+ 
+  Dim a, i, b As Integer
+  Dim s As String
+  b = InputBox("Enter the limit")
+    For i = 0 To count 
+     If b = arr[i] Then
+     Message.Info("Found")
+       Endif
+       
+    Next
+
+End

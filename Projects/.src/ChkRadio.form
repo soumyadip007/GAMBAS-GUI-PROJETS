@@ -1,0 +1,24 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,59,49)
+  { CheckBox1 CheckBox
+    MoveScaled(9,17,15,4)
+    Text = ("Bold")
+  }
+  { CheckBox2 CheckBox
+    MoveScaled(8,22,15,4)
+    Text = ("Italic")
+  }
+  { RadioButton1 RadioButton
+    MoveScaled(34,18,16,4)
+    Text = ("Male")
+  }
+  { RadioButton2 RadioButton
+    MoveScaled(34,23,13,4)
+    Text = ("Female")
+  }
+  { TextBox1 TextBox
+    MoveScaled(14,6,29,8)
+  }
+}

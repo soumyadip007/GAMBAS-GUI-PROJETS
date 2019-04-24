@@ -1,0 +1,39 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { TextBox1 TextBox
+    MoveScaled(4,13,24,9)
+  }
+  { TextBox2 TextBox
+    MoveScaled(33,13,24,9)
+    ReadOnly = True
+  }
+  { Label1 Label
+    MoveScaled(7,7,18,4)
+    Text = ("celsius")
+  }
+  { Label3 Label
+    MoveScaled(37,5,20,7)
+    Text = ("fahrenheit")
+  }
+  { Button1 Button
+    MoveScaled(22,50,25,7)
+    Text = ("Convery")
+  }
+  { Label4 Label
+    MoveScaled(8,29,20,7)
+    Text = ("fahrenheit")
+  }
+  { Label2 Label
+    MoveScaled(36,30,18,4)
+    Text = ("celsius")
+  }
+  { TextBox4 TextBox
+    MoveScaled(34,36,24,9)
+    ReadOnly = True
+  }
+  { TextBox3 TextBox
+    MoveScaled(5,36,24,9)
+  }
+}

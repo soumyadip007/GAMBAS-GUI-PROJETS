@@ -1,0 +1,12 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { ListBox1 ListBox
+    MoveScaled(1,1,62,55)
+  }
+  { Button1 Button
+    MoveScaled(1,57,62,6)
+    Text = ("Create Multiplication Table")
+  }
+}

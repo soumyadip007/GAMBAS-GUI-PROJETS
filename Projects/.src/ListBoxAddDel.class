@@ -1,0 +1,41 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+  
+
+End
+
+Public Sub Button1_Click()
+
+  ListBox1.add(TextBox1.text)
+  TextBox1.text = ""
+End
+
+Public Sub Button2_Click()
+
+  Dim index As Integer
+  index = ListBox1.Index
+  
+  If index >= 0
+      ListBox1.Remove(index)
+   Else
+     TextBox1_KeyPress()
+           
+        Endif
+End
+
+  Public Sub TextBox1_KeyPress()
+            If TextBox1.Length >= 1
+              Button1.Enabled = True
+            Else
+              Button1.Enabled = False
+              Endif
+End
+
+Public Sub ListBox1_Click()
+
+  
+
+End
