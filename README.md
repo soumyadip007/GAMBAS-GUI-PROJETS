@@ -1,2 +1,2 @@
 # GAMBAS-GUI-PROJETS
-#  repo contains various GUI project (Linux based) .
+# This repo contains various GUI project (Linux based) .
